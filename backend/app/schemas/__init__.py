@@ -1,0 +1,31 @@
+from app.schemas.meeting import (
+    TranscriptSegmentRead,
+    DecisionRead,
+    ActionItemRead,
+    ActionItemUpdate,
+    MeetingListItem,
+    MeetingDetailRead,
+    ProcessingStatusRead,
+    LLMDecisionItem,
+    LLMActionItem,
+    LLMExtractionResult,
+    DashboardMetrics,
+    SearchResultItem,
+    SearchResponse,
+)
+
+__all__ = [
+    "TranscriptSegmentRead",
+    "DecisionRead",
+    "ActionItemRead",
+    "ActionItemUpdate",
+    "MeetingListItem",
+    "MeetingDetailRead",
+    "ProcessingStatusRead",
+    "LLMDecisionItem",
+    "LLMActionItem",
+    "LLMExtractionResult",
+    "DashboardMetrics",
+    "SearchResultItem",
+    "SearchResponse",
+]
